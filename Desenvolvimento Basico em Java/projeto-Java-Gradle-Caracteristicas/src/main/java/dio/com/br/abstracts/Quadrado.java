@@ -1,5 +1,5 @@
 package dio.com.br.abstracts;
-
+import java.lang.StringBuilder;
 
 public class Quadrado extends FormaGeometrica {
     private String nome;
@@ -11,4 +11,19 @@ public class Quadrado extends FormaGeometrica {
 
     }
 
+
+    public String toString() {
+        final String builder = "Quadrado [" + "nome= " + nome + " " + ", area = " + area + "]";
+        return builder.toString();
+    }
+
+    @Override
+    public String nome() {
+        return nome;
+    }
+
+    @Override
+    public Double area() {
+        return area;
+    }
 }

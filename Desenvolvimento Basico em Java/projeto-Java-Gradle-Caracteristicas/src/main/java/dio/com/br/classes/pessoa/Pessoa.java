@@ -25,6 +25,6 @@ public class Pessoa {
     }
 
     protected String relatorio(){
-        return "Idade: " + idade + "e Peso: " + peso;
+        return "Idade: " + idade + " e Peso: " + peso;
     }
 }
