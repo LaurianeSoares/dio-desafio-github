@@ -10,5 +10,8 @@ public class Programa {
         System.out.println("Registro do Trator: " + trator.registro());
         trator.ligar();
         final Fiesta fiesta = new Fiesta();
+        System.out.println("Marca do Fiesta: " + fiesta.marca());
+        System.out.println("Registro do Veiculo: " + fiesta.registro());
+        fiesta.ligar();
     }
 }
