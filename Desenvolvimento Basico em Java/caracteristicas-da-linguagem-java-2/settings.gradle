@@ -1,3 +1,5 @@
 rootProject.name = 'caracteristicas-da-linguagem-java-2'
 include 'codigo-de-debug'
+include 'manipulacao-de-datas'
+include 'tratamento-de-exceções'
 

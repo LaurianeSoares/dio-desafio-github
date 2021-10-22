@@ -11,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/codigo-de-debug" />
+            <option value="$PROJECT_DIR$/manipulacao-de-datas" />
+            <option value="$PROJECT_DIR$/tratamento-de-exceções" />
           </set>
         </option>
       </GradleProjectSettings>
