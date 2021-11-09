@@ -37,6 +37,7 @@ public class Pilha {
 
 
     }
+<<<<<<< HEAD
 
     public No getRefNoEntradaPilha() {
         return refNoEntradaPilha;
@@ -63,4 +64,6 @@ public class Pilha {
         return stringRetorno;
     }
 
+=======
+>>>>>>> origin/main
 }
