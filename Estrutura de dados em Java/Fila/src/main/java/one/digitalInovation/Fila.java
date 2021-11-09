@@ -17,7 +17,7 @@ public class Fila {
             No primeiroNo = refNoEntradaFila;
             while (true){
                 if(primeiroNo.getRefNo() !=null){
-                    primeiroNo = primeiroNo.getRefNo()
+                    primeiroNo = primeiroNo.getRefNo();
                 }else{
                     break;
                 }
@@ -39,7 +39,7 @@ public class Fila {
             while (true){
                 if(primeiroNo.getRefNo() !=null){
                     noAuxiliar = primeiroNo;
-                    primeiroNo = primeiroNo.getRefNo()
+                    primeiroNo = primeiroNo.getRefNo();
                 }else{
                     noAuxiliar.setRefNo(null);
                     break;
